@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+* {
+    font-family: 'Electrolize', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.header {
+    background-color: #13b4dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2)
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1)
+}
+
+.header .nav-links a {
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: blue
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: antiquewhite;
+    border: solid 1px;
+    margin-top: 5px;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+}
+
+.background{
+    margin-left: 10rem;
+}
+
+.texto{
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    margin-left: 52rem;
+}
+
